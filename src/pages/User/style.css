@@ -27,3 +27,51 @@
     margin-top: 5px;
     line-height: 24px;
 }
+
+.user-list .button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background: #2fdad1;
+    border: 2px solid #20948e;
+    margin-top: 10px;
+    color: crimson;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.user-list  .button:hover{
+    background: crimson;
+    color: #2fdad1;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.btn-criar{
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background: #2fdad1;
+    border: 2px solid #20948e;
+    margin-left: 70px;
+    color: crimson;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#create-link{
+    margin: 50px;
+}
